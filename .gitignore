@@ -1,0 +1,8 @@
+# ===== binaries =====
+myinit
+test_prog1
+test_prog2
+test_prog3
+
+# ===== test outputs =====
+result.txt
