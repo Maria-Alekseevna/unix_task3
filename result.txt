@@ -1,0 +1,63 @@
+✓ PASSED: Found 3 child processes
+✓ PASSED: After killing, still 3 child processes (restarted)
+✓ PASSED: After SIGHUP, found 1 child process
+[Sat May  2 00:00:36 2026] Config loaded: 3 processes defined
+[Sat May  2 00:00:36 2026] Started process 0: /tmp/myinit_test/test_prog1 (pid=7501)
+[Sat May  2 00:00:36 2026] Started process 1: /tmp/myinit_test/test_prog2 (pid=7502)
+[Sat May  2 00:00:36 2026] Started process 2: /tmp/myinit_test/test_prog3 (pid=7503)
+[Sat May  2 00:00:39 2026] Process 1 (pid=7502) killed by signal 15 - restarting
+[Sat May  2 00:00:39 2026] Started process 1: /tmp/myinit_test/test_prog2 (pid=7511)
+[Sat May  2 00:00:43 2026] SIGHUP received - reloading configuration
+[Sat May  2 00:00:43 2026] Terminating process 0 (pid=7501)
+[Sat May  2 00:00:43 2026] Force killed process 0 (pid=7501)
+[Sat May  2 00:00:43 2026] Terminating process 1 (pid=7511)
+[Sat May  2 00:00:43 2026] Force killed process 1 (pid=7511)
+[Sat May  2 00:00:43 2026] Terminating process 2 (pid=7503)
+[Sat May  2 00:00:43 2026] Force killed process 2 (pid=7503)
+[Sat May  2 00:00:43 2026] Config loaded: 1 processes defined
+[Sat May  2 00:00:43 2026] Started process 0: /tmp/myinit_test/test_prog1 (pid=7522)
+✓ PASSED: Found start events for all 3 processes
+✓ PASSED: Found restart event after process kill
+✓ PASSED: Found SIGHUP reload event
+✓ PASSED: Found 3 child processes
+✓ PASSED: After killing, still 3 child processes (restarted)
+✓ PASSED: After SIGHUP, found 1 child process
+[Sun May  3 11:03:56 2026] Config loaded: 3 processes defined
+[Sun May  3 11:03:56 2026] Started process 0: /tmp/myinit_test/test_prog1 (pid=98)
+[Sun May  3 11:03:56 2026] Started process 1: /tmp/myinit_test/test_prog2 (pid=99)
+[Sun May  3 11:03:56 2026] Started process 2: /tmp/myinit_test/test_prog3 (pid=100)
+[Sun May  3 11:03:59 2026] Process 1 (pid=99) killed by signal 15 - restarting
+[Sun May  3 11:03:59 2026] Started process 1: /tmp/myinit_test/test_prog2 (pid=108)
+[Sun May  3 11:04:02 2026] SIGHUP received - reloading configuration
+[Sun May  3 11:04:02 2026] Terminating process 0 (pid=98)
+[Sun May  3 11:04:02 2026] Force killed process 0 (pid=98)
+[Sun May  3 11:04:02 2026] Terminating process 1 (pid=108)
+[Sun May  3 11:04:02 2026] Force killed process 1 (pid=108)
+[Sun May  3 11:04:02 2026] Terminating process 2 (pid=100)
+[Sun May  3 11:04:03 2026] Force killed process 2 (pid=100)
+[Sun May  3 11:04:03 2026] Config loaded: 1 processes defined
+[Sun May  3 11:04:03 2026] Started process 0: /tmp/myinit_test/test_prog1 (pid=119)
+✓ PASSED: Found start events for all 3 processes
+✓ PASSED: Found restart event after process kill
+✓ PASSED: Found SIGHUP reload event
+✓ PASSED: Found 3 child processes
+✓ PASSED: After killing, still 3 child processes (restarted)
+✓ PASSED: After SIGHUP, found 1 child process
+[Sun May  3 11:09:48 2026] Config loaded: 3 processes defined
+[Sun May  3 11:09:48 2026] Started process 0: /tmp/myinit_test/test_prog1 (pid=188)
+[Sun May  3 11:09:48 2026] Started process 1: /tmp/myinit_test/test_prog2 (pid=189)
+[Sun May  3 11:09:49 2026] Started process 2: /tmp/myinit_test/test_prog3 (pid=190)
+[Sun May  3 11:09:52 2026] Process 1 (pid=189) killed by signal 15 - restarting
+[Sun May  3 11:09:52 2026] Started process 1: /tmp/myinit_test/test_prog2 (pid=198)
+[Sun May  3 11:09:55 2026] SIGHUP received - reloading configuration
+[Sun May  3 11:09:55 2026] Terminating process 0 (pid=188)
+[Sun May  3 11:09:55 2026] Force killed process 0 (pid=188)
+[Sun May  3 11:09:55 2026] Terminating process 1 (pid=198)
+[Sun May  3 11:09:55 2026] Force killed process 1 (pid=198)
+[Sun May  3 11:09:55 2026] Terminating process 2 (pid=190)
+[Sun May  3 11:09:55 2026] Force killed process 2 (pid=190)
+[Sun May  3 11:09:55 2026] Config loaded: 1 processes defined
+[Sun May  3 11:09:55 2026] Started process 0: /tmp/myinit_test/test_prog1 (pid=209)
+✓ PASSED: Found start events for all 3 processes
+✓ PASSED: Found restart event after process kill
+✓ PASSED: Found SIGHUP reload event
